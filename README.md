@@ -1,4 +1,7 @@
-# Researchy: A Batman utility belt for your Scala research code.
+Researchy
+==========
+
+Researchy is a Batman utility belt for your Scala research code.
 
 Experiment Notebook to store Provenance, Output, and Logs
 ---------------------------------------------------------
