@@ -26,7 +26,7 @@ data to be stored.
          |
          *-001.run/ <-- directory for Experiment #1 on yyyy-mm-dd
          |
-         *-002.run/ <-- directory for Experiment #1 on yyyy-mm-dd
+         *-002.run/ <-- directory for Experiment #2 on yyyy-mm-dd
 
 The experiment directory provides a place to record all output from your
 experiment, as well as a place to copy in all information necessary to debug or
@@ -37,8 +37,8 @@ Git Integration
 ---------------
 
 When you begin an experiment, Researchy records the status of the git
-repository: your current branch, and the number of untracked and modified files
-you have open.
+repository in your experiment notebook. This includes current branch and the
+number of untracked and modified files you have open.
 
 Researchy will complain (in the log file) if you have any uncommitted or
 untracked changes: a good experiment is tied to a reproducible state in the
