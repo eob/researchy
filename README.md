@@ -46,3 +46,26 @@ SCM! But if you insist on being a rebel, you can set Researchy to copy any
 un-committed files to the experiment notebook just to be sure you can reproduce
 the state of the experiment at a later date.
 
+Managed Timers and Data Dumping
+-------------------------------
+
+The `Timers` and `Dump` objects provide one-liners that enable you to time
+events and dump various shapes of data to your Experiment Notebook. Use these
+instead of (or in addition to) normal logging and Researchy will provide you
+with nice, structured data to analize and archive.
+
+Multi-File Thrift IO
+--------------------
+
+It's often convenient to split data across multiple files. Researchy provides
+Thrift object read/write streams across sets of files in addition to individual
+files.
+
+Evaluation Frameworks
+---------------------
+
+Researchy provides standardized facilities for computing metrics such as
+f-score, precision, and recall. Just provide the data and the evaluation
+function, and you don't have to worry about writing an evaluation harness
+yourself.
+
