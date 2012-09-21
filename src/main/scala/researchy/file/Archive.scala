@@ -6,7 +6,7 @@ import java.util.zip._
 import java.io._
 
 /**
- * Provides file archiving utilities.
+ * Singleton object to provide file archiving utilities.
  */
 object Archive {
 

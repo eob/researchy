@@ -5,6 +5,9 @@ package researchy;
 import java.io.{File, FileWriter}
 import com.codahale.logula.Logging
 
+/**
+ * Singleton object for saving various shapes of data to the Experiment Notebook.
+ */
 object Dump extends Logging {
   /**
    * Saves a sequence of items to a comma-separated file

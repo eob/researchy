@@ -2,6 +2,9 @@
 
 package researchy.evaluation;
 
+/**
+ * Provides standard F-Score calculations.
+ */
 class FScore() {
 
   // These are doubles instead of ints to enable flexible accounting

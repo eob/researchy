@@ -8,6 +8,9 @@ import org.eclipse.jgit.lib.{Repository, RepositoryBuilder, ObjectId}
 import java.io.File
 import com.codahale.logula.Logging
 
+/**
+ * Singleton to provide git integration.
+ */
 object Checkpoint extends Logging {
 
   def gitRepository : Repository = {

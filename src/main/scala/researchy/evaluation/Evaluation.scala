@@ -2,6 +2,9 @@
 
 package researchy.evaluation;
 
+/**
+ * Singleton object to provide standard forms of experimental evaluation.
+ */
 object Evaluate {
   
   def accuracy[A,B](test : Seq[A],

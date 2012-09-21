@@ -7,6 +7,9 @@ import java.util.regex.{Matcher, Pattern}
 import com.codahale.logula.Logging
 import org.apache.log4j.Level
 
+/**
+ * Singleton object to provide an Experiment Notebook for your research projects.
+ */
 object Experiment extends Logging {
   var experimentPool_ : String = "experiments"
   var runExtension_ : String = "run"

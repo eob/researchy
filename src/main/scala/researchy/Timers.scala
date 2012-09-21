@@ -5,7 +5,7 @@ package researchy;
 import com.codahale.logula.Logging
 
 /**
- * Record timing information.
+ * Singleton object to provide timing functionality.
  */
 object Timers extends Logging {
   var _times = Map[String, Long]()
